@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bjut.edu.cn.intel.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:text="家庭环境监控系统" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="室温"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/temp_data"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="火警"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/flame_data"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="PIR"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/pir_data"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="按压"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/press_data"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_marginTop="150dp"
+            android:id="@+id/setting"
+            android:background="@null"
+            android:layout_marginLeft="180dp"
+            android:src="@drawable/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
