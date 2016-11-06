@@ -5,7 +5,7 @@ package bjut.edu.cn.intel;
  */
 public class Config {
     //设置数据有效期(s)
-    public static int NearTime = 30;
+    public static int NearTime = 60;
     //上一次获取最新数据时间
     public static long PIR_BATHROOM = 0L;
     public static long PRESS = 0L;
